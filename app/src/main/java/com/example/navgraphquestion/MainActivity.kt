@@ -8,15 +8,10 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.navigation.compose.rememberNavController
 import com.example.navgraphquestion.navigation.MyNavHost
-import com.example.navgraphquestion.ui.screens.sectionOne.SectionOneViewModel
-import com.example.navgraphquestion.ui.screens.sectionOne.pageOne.PageOneScreen
 import com.example.navgraphquestion.ui.theme.NavGraphQuestionTheme
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -41,21 +36,5 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
-    }
-}
-
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    NavGraphQuestionTheme {
-        Greeting("Android")
     }
 }

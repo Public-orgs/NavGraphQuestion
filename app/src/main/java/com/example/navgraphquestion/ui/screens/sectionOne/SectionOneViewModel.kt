@@ -6,6 +6,7 @@ import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import com.example.navgraphquestion.domain.useCase.FormEvent
 import com.example.navgraphquestion.domain.useCase.FormState
+import com.example.navgraphquestion.navigation.Screens
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 
@@ -49,6 +50,6 @@ class SectionOneViewModel @Inject constructor(): ViewModel() {
     }
 
     private fun handleFormSubmit() {
-
+        navigateScreen = Screens.Home.route
     }
 }

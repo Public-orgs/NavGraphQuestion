@@ -12,7 +12,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.example.navgraphquestion.domain.useCase.FormEvent
 import com.example.navgraphquestion.domain.useCase.FormState
-import com.example.navgraphquestion.navigation.Screens
 
 @Composable
 @ExperimentalMaterial3Api
@@ -81,7 +80,7 @@ fun PageFourContent(
         Button(
             modifier = Modifier.padding(vertical = 16.dp, horizontal = 32.dp).fillMaxWidth(),
             onClick = {
-                onEvent(FormEvent.NavigateToScreen(Screens.Home.route))
+                onEvent(FormEvent.Submit)
             }
         ) {
             Text(text="Finish")

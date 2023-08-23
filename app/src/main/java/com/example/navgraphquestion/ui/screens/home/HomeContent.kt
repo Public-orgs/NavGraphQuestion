@@ -27,12 +27,5 @@ fun HomeContent(
         ) {
             Text("Section One")
         }
-        Button(
-            onClick = {
-                onNavigateScreen(NavGraphs.SectionTwo.route)
-            }
-        ) {
-            Text("Section Two")
-        }
     }
 }

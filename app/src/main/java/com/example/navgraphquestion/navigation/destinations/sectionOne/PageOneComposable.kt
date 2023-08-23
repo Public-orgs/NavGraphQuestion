@@ -7,7 +7,6 @@ import androidx.navigation.compose.composable
 import com.example.navgraphquestion.navigation.Screens
 import com.example.navgraphquestion.navigation.navigateSingleTopTo
 import com.example.navgraphquestion.navigation.sharedViewModel
-import com.example.navgraphquestion.ui.screens.sectionOne.SectionOneViewModel
 import com.example.navgraphquestion.ui.screens.sectionOne.pageOne.PageOneScreen
 
 @ExperimentalMaterial3Api

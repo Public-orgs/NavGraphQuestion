@@ -3,7 +3,6 @@ package com.example.navgraphquestion
 import androidx.activity.compose.setContent
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.ui.test.junit4.createAndroidComposeRule
-import androidx.compose.ui.test.onAllNodesWithText
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
 import androidx.navigation.compose.rememberNavController
@@ -12,7 +11,6 @@ import com.example.navgraphquestion.ui.theme.NavGraphQuestionTheme
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
-import kotlin.time.Duration.Companion.seconds
 
 @ExperimentalMaterial3Api
 class EndToEndTest {
